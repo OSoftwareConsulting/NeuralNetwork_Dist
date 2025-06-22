@@ -1,4 +1,5 @@
 {
+  "Debug": true,
   "AssemblyPaths": [
     "TestFuncsLib.dll"
   ],
@@ -23,7 +24,6 @@
     "Separator": ",",
     "SkipRows": 0,
     "SkipColumns": 0,
-    "NbrOutputs": 3,
     "RandomizeSamples": true,
     "NormalizeInputs": true
   },

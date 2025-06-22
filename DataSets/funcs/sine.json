@@ -1,4 +1,5 @@
 {
+  "Debug": true,
   "AssemblyPaths": [
     "TestFuncsLib.dll"
   ],
