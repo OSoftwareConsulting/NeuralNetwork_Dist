@@ -6,7 +6,6 @@
   "NbrEpochs": 1000,
   "TrainingRate": 0.025,
   "TrainingMomentum": 0.005,
-  "NbrInputs": 10,
   "LayerConfigs": [
     {
       "NbrOutputs": 11,
@@ -20,7 +19,7 @@
     }
   ],
   "FileSamplesGenerator": {
-    "FilePath": "./magic04.csv",
+    "FilePath": "magic04.csv",
     "Separator": ",",
     "SkipRows": 0,
     "SkipColumns": 0,
@@ -28,5 +27,6 @@
     "NormalizeInputs": true
   },
   "TrainingFraction": 0.8,
+  "MemoryFilePath": "magic04.nnm",
   "UserDefinedFunctions": "TestFuncsLib.IndexOfMaxMatches"
 }
